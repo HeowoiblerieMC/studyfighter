@@ -6,7 +6,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/STATUS-EARLY%20ACCESS-D4AF37?style=for-the-badge&labelColor=09090F" alt="Early Access">
-  <img src="https://img.shields.io/badge/VERSION-0.1.0-9B72CF?style=for-the-badge&labelColor=09090F" alt="Version 0.1.0">
+  <img src="https://img.shields.io/badge/VERSION-0.1.0-9B72CF?style=for-the-badge&labelColor=09090F" alt="Version 1.4.3">
   <img src="https://img.shields.io/badge/PLATFORM-WEB-8B1E3F?style=for-the-badge&labelColor=09090F" alt="Web Platform">
 </p>
 
