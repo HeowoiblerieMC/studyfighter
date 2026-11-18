@@ -6,6 +6,8 @@
   <meta name="theme-color" content="#09090f">
   <meta name="description" content="Focus Quest turns focused study and work sessions into coins, ranks, boosters, and collectibles.">
   <title>Focus Quest</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="favicon.svg">
   <link rel="stylesheet" href="style.css">
   <script src="app.js" defer></script>
 </head>
@@ -41,7 +43,15 @@
           <div class="panel-head"><div><p class="eyebrow">ACTIVE MISSION</p><h2>Focus Session</h2></div><span class="status-pill" id="sessionStatus">READY</span></div>
           <div class="form-grid">
             <label>Mission<input id="taskInput" maxlength="80" placeholder="Example: Mathematics revision"></label>
-            <label>Duration<select id="durationSelect"><option value="5">5 minutes</option><option value="15">15 minutes</option><option value="25" selected>25 minutes</option><option value="45">45 minutes</option><option value="60">60 minutes</option></select></label>
+            <label>Duration
+              <div class="duration-control">
+                <input id="durationInput" type="number" min="1" max="720" value="25" inputmode="numeric" aria-label="Custom duration in minutes">
+                <span>minutes</span>
+              </div>
+              <div class="duration-presets" aria-label="Duration presets">
+                <button type="button" data-minutes="5">5</button><button type="button" data-minutes="15">15</button><button type="button" data-minutes="25" class="selected">25</button><button type="button" data-minutes="30">30</button><button type="button" data-minutes="45">45</button><button type="button" data-minutes="60">60</button><button type="button" data-minutes="90">90</button><button type="button" data-minutes="120">120</button>
+              </div>
+            </label>
             <label>Mode<select id="modeSelect"><option value="relaxed">Relaxed · x0.75</option><option value="normal" selected>Normal · x1.00</option><option value="strict">Strict · x1.25</option></select></label>
             <label>Booster<select id="boosterSelect"><option value="none">No booster</option></select></label>
           </div>
@@ -67,7 +77,7 @@
     <section class="view" id="shopView"><div class="hero"><p class="eyebrow">BOOSTER EMPORIUM</p><h1>Amplify your next victory.</h1><p>Boosters are earned with coins and consumed only when used.</p></div><div class="cards" id="shopCards"></div></section>
     <section class="view" id="collectionView"><div class="hero"><p class="eyebrow">ROYAL COLLECTION</p><h1>Every treasure tells a story.</h1><p>Unlock all seven artifacts. Duplicates are converted into bonus coins.</p></div><div class="cards" id="collectionCards"></div></section>
     <section class="view" id="statsView"><div class="hero"><p class="eyebrow">PLAYER RECORD</p><h1>Your focus, measured.</h1></div><div class="stat-grid" id="statGrid"></div><article class="panel history"><div class="panel-head"><div><p class="eyebrow">RECENT MISSIONS</p><h2>Session History</h2></div><button class="btn small" id="clearHistoryBtn">CLEAR</button></div><div id="historyList"></div></article></section>
-    <section class="view" id="settingsView"><div class="hero"><p class="eyebrow">ROYAL ARCHIVE</p><h1>Settings and save data.</h1></div><div class="two-col"><article class="panel"><h2>Experience</h2><label class="setting"><span>Sound effects</span><input type="checkbox" id="soundToggle" checked></label><label class="setting"><span>Reduced motion</span><input type="checkbox" id="motionToggle"></label></article><article class="panel"><h2>Save Management</h2><p class="muted">Export a backup before clearing browser data or changing devices.</p><div class="controls vertical"><button class="btn" id="exportBtn">EXPORT SAVE</button><label class="btn file-btn">IMPORT SAVE<input type="file" id="importInput" accept="application/json"></label><button class="btn danger" id="resetBtn">RESET ALL DATA</button></div></article></div></section>
+    <section class="view" id="settingsView"><div class="hero"><p class="eyebrow">ROYAL ARCHIVE</p><h1>Settings and save data.</h1></div><div class="two-col"><article class="panel"><h2>Experience</h2><label class="setting"><span>Sound effects</span><input type="checkbox" id="soundToggle" checked></label><label class="setting volume-setting"><span>Sound volume <strong id="volumeValue">70%</strong></span><input type="range" id="volumeSlider" min="0" max="100" value="70"></label><button class="btn" id="soundTestBtn">TEST SOUND</button><label class="setting"><span>Reduced motion</span><input type="checkbox" id="motionToggle"></label></article><article class="panel"><h2>Save Management</h2><p class="muted">Export a backup before clearing browser data or changing devices.</p><div class="controls vertical"><button class="btn" id="exportBtn">EXPORT SAVE</button><label class="btn file-btn">IMPORT SAVE<input type="file" id="importInput" accept="application/json"></label><button class="btn danger" id="resetBtn">RESET ALL DATA</button></div></article></div></section>
   </main>
 
   <div class="modal-backdrop hidden" id="modal"><div class="modal"><div class="modal-icon" id="modalIcon">✦</div><p class="eyebrow" id="modalEyebrow">FOCUS QUEST</p><h2 id="modalTitle"></h2><p id="modalText"></p><button class="btn gold wide" id="modalBtn">CONTINUE</button></div></div>
