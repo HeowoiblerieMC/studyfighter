@@ -2,35 +2,86 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#09090f">
-  <meta name="description" content="Focus Quest turns focused work into coins, ranks, boosters, and collectibles.">
+  <meta name="description" content="Focus Quest turns focused study and work sessions into coins, ranks, boosters, and collectibles.">
   <title>Focus Quest</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="stylesheet" href="style.css?v=9">
-  <script src="app.js?v=9" defer></script>
-  <script src="vault-effects.js?v=9" defer></script>
+  <link rel="apple-touch-icon" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
 </head>
 <body>
   <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
-  <header><a class="brand" href="#">✦ FOCUS QUEST</a><div class="wallet"><span>COINS <b>◈ <i id="coins">100</i></b></span><span>RANK <b id="rank">Bronze Initiate</b></span><span>FOCUS <b id="totalFocus">0m</b></span></div></header>
-  <nav>
-    <button class="nav active" data-view="focus">⏳ Focus</button><button class="nav" data-view="vault">💎 Vault</button><button class="nav" data-view="shop">✦ Boosters</button><button class="nav" data-view="collection">♛ Collection</button><button class="nav" data-view="stats">◈ Statistics</button><button class="nav" data-view="settings">⚙ Settings</button>
+  <header class="topbar">
+    <a class="brand" href="#focus" aria-label="Focus Quest home"><span class="brand-mark">✦</span><span>FOCUS QUEST</span></a>
+    <div class="header-stats">
+      <div><small>COINS</small><strong>◈ <span id="coins">100</span></strong></div>
+      <div><small>RANK</small><strong id="rank">Bronze Initiate</strong></div>
+      <div><small>TOTAL FOCUS</small><strong id="totalFocus">0m</strong></div>
+    </div>
+  </header>
+
+  <nav class="nav" aria-label="Primary navigation">
+    <button class="nav-btn active" data-view="focus">⏳ Focus</button>
+    <button class="nav-btn" data-view="vault">💎 Vault</button>
+    <button class="nav-btn" data-view="shop">✦ Boosters</button>
+    <button class="nav-btn" data-view="collection">♛ Collection</button>
+    <button class="nav-btn" data-view="stats">◈ Statistics</button>
+    <button class="nav-btn" data-view="settings">⚙ Settings</button>
   </nav>
+
   <main>
-    <section class="view active" id="focusView"><div class="hero"><small>TURN FOCUS INTO POWER</small><h1>Begin your next quest.</h1><p>Complete real focus sessions, protect your score, and build a legendary collection.</p></div>
-      <div class="grid"><article class="panel"><div class="panel-head"><div><small>ACTIVE MISSION</small><h2>Focus Session</h2></div><em id="sessionStatus">READY</em></div>
-        <div class="form"><label>Mission<input id="taskInput" maxlength="80" placeholder="Example: Mathematics revision"></label><label>Duration<div class="duration"><input id="durationInput" type="number" min="1" max="720" value="25"><b>minutes</b></div><div class="presets"><button data-minutes="5">5</button><button data-minutes="15">15</button><button class="selected" data-minutes="25">25</button><button data-minutes="30">30</button><button data-minutes="45">45</button><button data-minutes="60">60</button><button data-minutes="90">90</button><button data-minutes="120">120</button></div></label><label>Mode<select id="modeSelect"><option value="relaxed">Relaxed · x0.75</option><option value="normal" selected>Normal · x1.00</option><option value="strict">Strict · x1.25</option></select></label><label>Booster<select id="boosterSelect"><option value="none">No booster</option></select></label></div>
-        <div class="timer-ring" id="timerRing"><div><strong id="timer">25:00</strong><span id="timerTask">Awaiting mission</span></div></div><div class="controls"><button class="btn gold" id="startBtn">START</button><button class="btn" id="pauseBtn" disabled>PAUSE</button><button class="btn danger" id="cancelBtn" disabled>CANCEL</button></div><div class="alert hidden" id="focusAlert"></div>
-      </article><aside class="stack"><article class="panel"><small>SESSION METRICS</small><h2>Focus Integrity</h2><div class="metric"><span>Focus Score</span><b id="focusScore">100%</b></div><div class="bar"><i id="focusBar"></i></div><div class="metric"><span>Departures</span><b id="departures">0</b></div><div class="metric"><span>Multiplier</span><b id="multiplier">x1.00</b></div><div class="metric"><span>Estimated Reward</span><b>◈ <i id="estimate">30</i></b></div></article><article class="panel"><small>FAIR FOCUS</small><h2>Protection Rules</h2><ul><li>No camera or microphone access</li><li>No activity checks</li><li>Handwritten work remains valid</li><li>Leaving reduces Focus Score</li></ul></article></aside></div>
+    <section class="view active" id="focusView">
+      <div class="hero">
+        <p class="eyebrow">TURN FOCUS INTO POWER</p>
+        <h1>Begin your next quest.</h1>
+        <p>Complete real focus sessions, protect your score, and build a collection worthy of a legend.</p>
+      </div>
+      <div class="focus-grid">
+        <article class="panel timer-panel">
+          <div class="panel-head"><div><p class="eyebrow">ACTIVE MISSION</p><h2>Focus Session</h2></div><span class="status-pill" id="sessionStatus">READY</span></div>
+          <div class="form-grid">
+            <label>Mission<input id="taskInput" maxlength="80" placeholder="Example: Mathematics revision"></label>
+            <label>Duration
+              <div class="duration-control">
+                <input id="durationInput" type="number" min="1" max="720" value="25" inputmode="numeric" aria-label="Custom duration in minutes">
+                <span>minutes</span>
+              </div>
+              <div class="duration-presets" aria-label="Duration presets">
+                <button type="button" data-minutes="5">5</button><button type="button" data-minutes="15">15</button><button type="button" data-minutes="25" class="selected">25</button><button type="button" data-minutes="30">30</button><button type="button" data-minutes="45">45</button><button type="button" data-minutes="60">60</button><button type="button" data-minutes="90">90</button><button type="button" data-minutes="120">120</button>
+              </div>
+            </label>
+            <label>Mode<select id="modeSelect"><option value="relaxed">Relaxed · x0.75</option><option value="normal" selected>Normal · x1.00</option><option value="strict">Strict · x1.25</option></select></label>
+            <label>Booster<select id="boosterSelect"><option value="none">No booster</option></select></label>
+          </div>
+          <div class="timer-wrap"><div class="timer-ring" id="timerRing"><div class="timer-center"><span id="timer">25:00</span><small id="timerTask">Awaiting mission</small></div></div></div>
+          <div class="controls"><button class="btn gold" id="startBtn">START</button><button class="btn" id="pauseBtn" disabled>PAUSE</button><button class="btn danger" id="cancelBtn" disabled>CANCEL</button></div>
+          <div class="alert hidden" id="focusAlert"></div>
+        </article>
+        <aside class="side-stack">
+          <article class="panel"><p class="eyebrow">SESSION METRICS</p><h2>Focus Integrity</h2>
+            <div class="metric"><div><span>Focus Score</span><strong id="focusScore">100%</strong></div><div class="bar"><i id="focusBar"></i></div></div>
+            <div class="metric-row"><span>Departures</span><strong id="departures">0</strong></div><div class="metric-row"><span>Multiplier</span><strong id="multiplier">x1.00</strong></div><div class="metric-row"><span>Estimated Reward</span><strong>◈ <span id="estimate">30</span></strong></div>
+          </article>
+          <article class="panel rules"><p class="eyebrow">FAIR FOCUS</p><h2>Protection Rules</h2><ul><li>No camera or microphone access</li><li>No mouse or keyboard activity checks</li><li>Reading and handwritten work remain valid</li><li>Leaving the page reduces Focus Score</li></ul></article>
+        </aside>
+      </div>
     </section>
-    <section class="view" id="vaultView"><div class="hero"><small>THE FOCUS VAULT</small><h1>Fortune favors the focused.</h1><p>Spend 100 coins for one of 50 collectibles.</p></div><div class="two"><article class="panel vault"><div class="vault-stage" id="vaultStage"><div class="vault-rays"></div><div id="vaultParticles"></div><div class="orb" id="orb">✦</div></div><h2 id="vaultResult">The vault awaits.</h2><p id="vaultDetail">One guaranteed reward per opening.</p><label class="check"><input type="checkbox" id="useLucky"> Use Lucky Charm (<span id="luckyCount">0</span> owned)</label><button class="btn gold full" id="rollBtn">OPEN VAULT · 100 COINS</button></article><article class="panel"><small>DROP RATES</small><h2>Vault Rarities</h2><div class="rates"><div>⚪ Common <b>60%</b></div><div>🔵 Rare <b>25%</b></div><div>🟣 Epic <b>10%</b></div><div>🟡 Legendary <b>4%</b></div><div>🔴 Celestial <b>1%</b></div></div></article></div></section>
-    <section class="view" id="shopView"><div class="hero"><small>BOOSTER EMPORIUM</small><h1>Amplify your next victory.</h1></div><div class="cards" id="shopCards"></div></section>
-    <section class="view" id="collectionView"><div class="hero"><small>ROYAL COLLECTION</small><h1>Every treasure tells a story.</h1><p>Unlock all 50 artifacts. Duplicates become bonus coins.</p></div><div class="cards" id="collectionCards"></div></section>
-    <section class="view" id="statsView"><div class="hero"><small>PLAYER RECORD</small><h1>Your focus, measured.</h1></div><div class="stat-grid" id="statGrid"></div><article class="panel"><div class="panel-head"><h2>Session History</h2><button class="btn" id="clearHistoryBtn">CLEAR</button></div><div id="historyList"></div></article></section>
-    <section class="view" id="settingsView"><div class="hero"><small>ROYAL ARCHIVE</small><h1>Settings and save data.</h1></div><div class="two"><article class="panel"><h2>Experience</h2><label class="setting">Sound effects<input type="checkbox" id="soundToggle" checked></label><label class="setting volume">Volume <b id="volumeValue">70%</b><input type="range" id="volumeSlider" min="0" max="100" value="70"></label><button class="btn" id="soundTestBtn">TEST SOUND</button><label class="setting">Reduced motion<input type="checkbox" id="motionToggle"></label></article><article class="panel"><h2>Save Management</h2><div class="controls vertical"><button class="btn" id="exportBtn">EXPORT SAVE</button><label class="btn file">IMPORT SAVE<input type="file" id="importInput" accept="application/json"></label><button class="btn danger" id="resetBtn">RESET ALL DATA</button></div></article></div></section>
+
+    <section class="view" id="vaultView"><div class="hero"><p class="eyebrow">THE FOCUS VAULT</p><h1>Fortune favors the focused.</h1><p>Spend 100 coins to reveal one collectible. Lucky Charms improve high-rarity odds.</p></div>
+      <div class="two-col"><article class="panel vault-machine"><div class="vault-stage" id="vaultStage"><div class="vault-rays"></div><div class="vault-particles" id="vaultParticles"></div><div class="orb" id="orb">✦</div></div><h2 id="vaultResult">The vault awaits.</h2><p id="vaultDetail">One guaranteed reward per opening.</p><label class="toggle"><input type="checkbox" id="useLucky"> Use Lucky Charm (<span id="luckyCount">0</span> owned)</label><button class="btn gold wide" id="rollBtn">OPEN VAULT · 100 COINS</button></article>
+      <article class="panel"><p class="eyebrow">DROP RATES</p><h2>Vault Rarities</h2><div class="rarities"><div><span class="dot common"></span>Common<strong>60%</strong></div><div><span class="dot rare"></span>Rare<strong>25%</strong></div><div><span class="dot epic"></span>Epic<strong>10%</strong></div><div><span class="dot legendary"></span>Legendary<strong>4%</strong></div><div><span class="dot celestial"></span>Celestial<strong>1%</strong></div></div></article></div>
+    </section>
+
+    <section class="view" id="shopView"><div class="hero"><p class="eyebrow">BOOSTER EMPORIUM</p><h1>Amplify your next victory.</h1><p>Boosters are earned with coins and consumed only when used.</p></div><div class="cards" id="shopCards"></div></section>
+    <section class="view" id="collectionView"><div class="hero"><p class="eyebrow">ROYAL COLLECTION</p><h1>Every treasure tells a story.</h1><p>Unlock all seven artifacts. Duplicates are converted into bonus coins.</p></div><div class="cards" id="collectionCards"></div></section>
+    <section class="view" id="statsView"><div class="hero"><p class="eyebrow">PLAYER RECORD</p><h1>Your focus, measured.</h1></div><div class="stat-grid" id="statGrid"></div><article class="panel history"><div class="panel-head"><div><p class="eyebrow">RECENT MISSIONS</p><h2>Session History</h2></div><button class="btn small" id="clearHistoryBtn">CLEAR</button></div><div id="historyList"></div></article></section>
+    <section class="view" id="settingsView"><div class="hero"><p class="eyebrow">ROYAL ARCHIVE</p><h1>Settings and save data.</h1></div><div class="two-col"><article class="panel"><h2>Experience</h2><label class="setting"><span>Sound effects</span><input type="checkbox" id="soundToggle" checked></label><label class="setting volume-setting"><span>Sound volume <strong id="volumeValue">70%</strong></span><input type="range" id="volumeSlider" min="0" max="100" value="70"></label><button class="btn" id="soundTestBtn">TEST SOUND</button><label class="setting"><span>Reduced motion</span><input type="checkbox" id="motionToggle"></label></article><article class="panel"><h2>Save Management</h2><p class="muted">Export a backup before clearing browser data or changing devices.</p><div class="controls vertical"><button class="btn" id="exportBtn">EXPORT SAVE</button><label class="btn file-btn">IMPORT SAVE<input type="file" id="importInput" accept="application/json"></label><button class="btn danger" id="resetBtn">RESET ALL DATA</button></div></article></div></section>
   </main>
-  <div class="modal-wrap hidden" id="modal"><div class="modal"><div class="modal-icon" id="modalIcon">✦</div><small>FOCUS QUEST</small><h2 id="modalTitle"></h2><p id="modalText"></p><div class="reflection hidden" id="reflectionBox"><label>What did you learn?<textarea id="reflectionInput" maxlength="500" placeholder="Write a short reflection to earn 5 bonus coins..."></textarea></label><span><i id="reflectionCount">0</i>/500 · Reward: +5 Coins</span></div><button class="btn gold full" id="modalBtn">CONTINUE</button></div></div>
-  <div class="toast" id="toast"></div><footer><b>✦ FOCUS QUEST ✦</b><span>Created by HeowoiblerieMC</span></footer>
+
+  <div class="modal-backdrop hidden" id="modal"><div class="modal"><div class="modal-icon" id="modalIcon">✦</div><p class="eyebrow" id="modalEyebrow">FOCUS QUEST</p><h2 id="modalTitle"></h2><p id="modalText"></p><div class="reflection-box hidden" id="reflectionBox"><label for="reflectionInput">What did you learn?</label><textarea id="reflectionInput" maxlength="500" placeholder="Write a short reflection to earn 5 bonus coins..."></textarea><small><span id="reflectionCount">0</span>/500 · Reward: +5 Coins</small></div><button class="btn gold wide" id="modalBtn">CONTINUE</button></div></div>
+  <div class="toast" id="toast"></div>
+  <footer><strong>✦ FOCUS QUEST ✦</strong><span>Created by HeowoiblerieMC</span></footer>
 </body>
 </html>
