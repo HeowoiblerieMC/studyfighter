@@ -1,253 +1,342 @@
 <div align="center">
 
-# ⚡ Focus Quest
+# ✦ FOCUS QUEST ✦
 
-### 🎯 Focus. Earn. Collect. Repeat.
+### Focus. Earn. Ascend.
 
 <p>
-  <img src="https://img.shields.io/badge/STATUS-EARLY%20ACCESS-43EF88?style=for-the-badge&labelColor=06120B" alt="Status">
-  <img src="https://img.shields.io/badge/VERSION-0.1.0-43EF88?style=for-the-badge&labelColor=06120B" alt="Version">
-  <img src="https://img.shields.io/badge/PLATFORM-WEB-43EF88?style=for-the-badge&labelColor=06120B" alt="Platform">
+  <img src="https://img.shields.io/badge/STATUS-EARLY%20ACCESS-D4AF37?style=for-the-badge&labelColor=09090F" alt="Early Access">
+  <img src="https://img.shields.io/badge/VERSION-0.1.0-9B72CF?style=for-the-badge&labelColor=09090F" alt="Version 0.1.0">
+  <img src="https://img.shields.io/badge/PLATFORM-WEB-8B1E3F?style=for-the-badge&labelColor=09090F" alt="Web Platform">
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/HTML5-06120B?style=flat-square&logo=html5&logoColor=43EF88" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-06120B?style=flat-square&logo=css3&logoColor=43EF88" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-06120B?style=flat-square&logo=javascript&logoColor=43EF88" alt="JavaScript">
-  <img src="https://img.shields.io/badge/LocalStorage-06120B?style=flat-square&logo=googlechrome&logoColor=43EF88" alt="LocalStorage">
+  <img src="https://img.shields.io/badge/HTML5-14121C?style=flat-square&logo=html5&logoColor=FF6D3A" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-14121C?style=flat-square&logo=css3&logoColor=5C9DFF" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-14121C?style=flat-square&logo=javascript&logoColor=FFD866" alt="JavaScript">
+  <img src="https://img.shields.io/badge/LocalStorage-14121C?style=flat-square&logo=googlechrome&logoColor=C7A6FF" alt="LocalStorage">
 </p>
 
-**A gamified productivity timer where real focus sessions earn coins, ranks, boosters, and collectible rewards.**
+<br>
+
+<img src="https://img.shields.io/badge/✦%20TURN%20FOCUS%20INTO%20POWER%20✦-D4AF37?style=for-the-badge&labelColor=09090F" alt="Turn Focus Into Power">
+
+<br><br>
+
+**A luxurious gamified productivity experience where real focus becomes coins, ranks, boosters, achievements, and rare collectibles.**
 
 <br>
 
 <a href="https://heowoibleriemc.github.io/focus-quest/">
-  <img src="https://img.shields.io/badge/START%20FOCUSING-43EF88?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=06120B" alt="Start Focus Quest">
+  <img src="https://img.shields.io/badge/ENTER%20FOCUS%20QUEST-D4AF37?style=for-the-badge&logo=googlechrome&logoColor=09090F&labelColor=09090F" alt="Enter Focus Quest">
 </a>
 <a href="https://github.com/HeowoiblerieMC/focus-quest">
-  <img src="https://img.shields.io/badge/VIEW%20SOURCE-43EF88?style=for-the-badge&logo=github&logoColor=white&labelColor=06120B" alt="View Source">
+  <img src="https://img.shields.io/badge/VIEW%20THE%20SOURCE-9B72CF?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=09090F" alt="View Source">
 </a>
+
+<br><br>
+
+<img src="https://img.shields.io/github/stars/HeowoiblerieMC/focus-quest?style=for-the-badge&logo=github&label=STARS&labelColor=09090F&color=D4AF37" alt="GitHub Stars">
+<img src="https://img.shields.io/github/forks/HeowoiblerieMC/focus-quest?style=for-the-badge&logo=github&label=FORKS&labelColor=09090F&color=9B72CF" alt="GitHub Forks">
+<img src="https://img.shields.io/github/last-commit/HeowoiblerieMC/focus-quest?style=for-the-badge&logo=github&label=LAST%20UPDATE&labelColor=09090F&color=8B1E3F" alt="Last Update">
 
 </div>
 
 ---
 
-## 🟩 Welcome to Focus Quest
+## ✦ Welcome, Focus Adventurer
 
-Player:        You
-Class:         Focus Adventurer
-Starting Rank: Bronze
+```text
+PLAYER PROFILE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Player:         You
+Class:          Focus Adventurer
+Starting Rank:  Bronze
 Starting Coins: 100
-Main Mission:  Turn focused time into progress
-Final Goal:    Reach Legend Rank
+Primary Quest:  Transform time into progress
+Ultimate Goal:  Reach the Eternal Rank
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
 
-Focus Quest transforms studying, programming, reading, creative work, and personal projects into a progression game.
+**Focus Quest** transforms studying, programming, reading, creative work, and personal projects into an elegant progression game.
 
-Start a focus session, protect your Focus Score, complete the timer, earn coins, purchase boosters, and unlock collectible rewards from the Focus Capsule.
+Begin a focus session, protect your Focus Score, earn coins, purchase powerful boosters, raise your rank, and unlock rare treasures from the Focus Vault.
 
-> **Your time is the currency. Your focus is the power.**
+Every completed session becomes permanent progress.
+
+> **Time is your currency. Focus is your power. Discipline is your legacy.**
 
 ---
 
-## 🎮 Core Gameplay Loop
+## ⚜️ The Focus Quest Experience
 
-Choose a Task
-      ↓
-Start a Focus Session
-      ↓
+Focus Quest combines a practical productivity timer with progression systems inspired by games.
+
+```text
+Select a Mission
+        ↓
+Begin a Focus Session
+        ↓
 Protect Your Focus Score
-      ↓
-Complete the Timer
-      ↓
-Earn Coins and Focus Time
-      ↓
-Purchase Boosters
-      ↓
-Roll the Focus Capsule
-      ↓
+        ↓
+Complete the Countdown
+        ↓
+Claim Coins and Experience
+        ↓
+Purchase Powerful Boosters
+        ↓
+Open the Focus Vault
+        ↓
 Expand Your Collection
-      ↓
-Increase Your Rank
+        ↓
+Ascend Through the Ranks
+```
 
-Every completed session permanently increases your total focus time.
+The objective is simple:
 
-The more consistently you focus, the more rewards and progression you unlock.
+### Focus in real life. Progress inside Focus Quest.
 
 ---
 
-## ⏱️ Focus Timer
+## ⏳ Focus Sessions
 
-Choose how long you want to focus.
+Choose a session length based on the task ahead.
 
-| Session | Best For | Base Reward |
+| Session | Recommended Use | Base Reward |
 |:---:|:---|---:|
-| `5 min` | Quick tasks and testing | 5 Coins |
-| `15 min` | Short homework sessions | 15 Coins |
-| `25 min` | Pomodoro-style focus | 25 Coins |
-| `45 min` | Deep study sessions | 45 Coins |
-| `60 min` | Long projects and revision | 60 Coins |
+| `5 minutes` | Quick tasks and testing | 5 Coins |
+| `15 minutes` | Short homework or reading | 15 Coins |
+| `25 minutes` | Standard Pomodoro focus | 25 Coins |
+| `45 minutes` | Deep study and creative work | 45 Coins |
+| `60 minutes` | Long projects and revision | 60 Coins |
 
-The final reward depends on your Focus Score, selected mode, and active booster.
+Your final reward is calculated using:
 
+```text
 Final Reward =
-Session Minutes × Focus Score × Mode Multiplier × Booster Multiplier
+Session Minutes
+× Focus Score
+× Mode Multiplier
+× Booster Multiplier
++ Perfect Focus Bonus
+```
+
+### Example Reward
+
+```text
+Session Length:    60 minutes
+Focus Score:       90%
+Focus Mode:        Strict
+Mode Multiplier:   x1.25
+Active Booster:    Coin Booster II
+Booster Multiplier: x2.00
+
+60 × 0.90 × 1.25 × 2.00 = 135 Coins
+```
 
 ---
 
-## 🎯 Focus Score
+## ◈ Focus Score
 
-Every session begins at:
+Every session begins with a perfect Focus Score.
 
-Focus Score: 100%
+```text
+FOCUS SCORE: 100%
+```
 
-Leaving the page during an active session decreases the Focus Score.
+Leaving the page during an active session reduces the score.
 
-[████████████████████] 100%  Perfect Focus
-[████████████████░░░░]  80%  Focus Maintained
-[██████████░░░░░░░░░░]  50%  Focus Interrupted
+```text
+[████████████████████] 100%  Flawless Focus
+[████████████████░░░░]  80%  Strong Focus
+[██████████░░░░░░░░░░]  50%  Interrupted Focus
 [████░░░░░░░░░░░░░░░░]  20%  Critical Focus
+```
 
-The Focus Score directly affects the final coin reward.
+The Focus Score directly affects the number of coins earned when the session ends.
 
 ### Perfect Focus
 
-Complete an entire session without leaving the page to receive:
+Complete a full session without leaving the page to receive:
 
-🏆 Perfect Focus
-+ Bonus Coins
-+ Perfect Session Progress
+```text
+╔══════════════════════════════════╗
+║          PERFECT FOCUS           ║
+╠══════════════════════════════════╣
+║  ✓ Full Session Completed        ║
+║  ✓ Zero Page Departures          ║
+║  ✓ 100% Focus Score              ║
+║  ✓ Bonus Coins Awarded           ║
+╚══════════════════════════════════╝
+```
 
-There is no mouse movement or keyboard activity requirement.
+Focus Quest does not require constant mouse or keyboard activity.
 
-Reading a textbook, solving equations on paper, writing notes, or thinking through a difficult problem will not be treated as inactivity.
+You can safely:
+
+- Read a textbook
+- Write notes on paper
+- Solve equations away from the screen
+- Sketch or design
+- Practice an instrument
+- Work on a physical project
+- Think through a difficult problem
+
+Honest focus should never be mistaken for inactivity.
 
 ---
 
-## 🛡️ Focus Modes
+## ♛ Focus Modes
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <h3>🌿 Relaxed</h3>
-      <p>Designed for flexible sessions where switching apps may occasionally be necessary.</p>
-      <p><strong>Penalty:</strong> Small</p>
-      <p><strong>Timer:</strong> Continues</p>
-      <p><strong>Reward:</strong> x0.75</p>
+    <td width="33%" valign="top" align="center">
+      <h3>◇ Relaxed Mode</h3>
+      <p>Flexible focus for sessions that may require occasional app or reference changes.</p>
+      <p><strong>Focus Penalty</strong><br>Small</p>
+      <p><strong>Page Departure</strong><br>Timer Continues</p>
+      <p><strong>Reward Multiplier</strong><br>x0.75</p>
     </td>
-    <td width="33%" valign="top">
-      <h3>⚡ Normal</h3>
-      <p>The standard Focus Quest experience with balanced rewards and penalties.</p>
-      <p><strong>Penalty:</strong> Medium</p>
-      <p><strong>Timer:</strong> Pauses</p>
-      <p><strong>Reward:</strong> x1.00</p>
+    <td width="33%" valign="top" align="center">
+      <h3>✦ Normal Mode</h3>
+      <p>The balanced Focus Quest experience with standard rewards and protection.</p>
+      <p><strong>Focus Penalty</strong><br>Medium</p>
+      <p><strong>Page Departure</strong><br>Timer Pauses</p>
+      <p><strong>Reward Multiplier</strong><br>x1.00</p>
     </td>
-    <td width="33%" valign="top">
-      <h3>🔥 Strict</h3>
-      <p>High-risk focus mode for players who want improved rewards.</p>
-      <p><strong>Penalty:</strong> High</p>
-      <p><strong>Timer:</strong> Pauses</p>
-      <p><strong>Reward:</strong> x1.25</p>
+    <td width="33%" valign="top" align="center">
+      <h3>♜ Strict Mode</h3>
+      <p>A high-risk challenge for players who want better rewards and stronger discipline.</p>
+      <p><strong>Focus Penalty</strong><br>High</p>
+      <p><strong>Page Departure</strong><br>Timer Pauses</p>
+      <p><strong>Reward Multiplier</strong><br>x1.25</p>
     </td>
   </tr>
 </table>
 
 ---
 
-## 🪙 Coin Economy
+## 🪙 The Royal Treasury
 
-Coins are earned by completing real focus sessions.
+Coins are earned by completing focus sessions.
 
-25-Minute Session
-Focus Score: 100%
-Mode: Normal
-Booster: None
-
-Reward: 25 Coins
-Perfect Focus Bonus: +5 Coins
-Total: 30 Coins
+```text
+25-MINUTE SESSION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Focus Score:          100%
+Mode:                 Normal
+Mode Multiplier:      x1.00
+Active Booster:       None
+Base Reward:          25 Coins
+Perfect Focus Bonus:  +5 Coins
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TOTAL REWARD:         30 Coins
+```
 
 Coins can be used for:
 
-- 🎰 Focus Capsule rolls
-- 🚀 Coin Boosters
-- 🍀 Lucky Boosters
-- 🎨 Future themes
-- 🏷️ Future profile decorations
-- ✨ Future limited collectibles
+- Opening the Focus Vault
+- Purchasing Coin Boosters
+- Purchasing Lucky Charms
+- Unlocking future visual themes
+- Acquiring future profile decorations
+- Entering future limited events
+- Collecting exclusive seasonal treasures
 
-There are no paid coins and no pay-to-win mechanics.
+### Economy Principle
 
-Every coin must be earned through focus.
+```text
+No paid currency.
+No pay-to-win system.
+No artificial advertisements.
+Every coin is earned through real focus.
+```
 
 ---
 
-## 🚀 Booster Shop
+## ✦ The Booster Emporium
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="33%" valign="top" align="center">
       <h3>🪙 Coin Booster I</h3>
-      <p>Increases the coin reward from one completed focus session.</p>
-      <p><strong>Effect:</strong> x1.5 Coins</p>
-      <p><strong>Price:</strong> 150 Coins</p>
+      <p>A polished golden token infused with focused energy.</p>
+      <p><strong>Effect</strong><br>x1.5 Session Coins</p>
+      <p><strong>Duration</strong><br>One Session</p>
+      <p><strong>Price</strong><br>150 Coins</p>
     </td>
-    <td width="33%" valign="top">
+    <td width="33%" valign="top" align="center">
       <h3>💰 Coin Booster II</h3>
-      <p>Provides a powerful reward multiplier for one focus session.</p>
-      <p><strong>Effect:</strong> x2 Coins</p>
-      <p><strong>Price:</strong> 400 Coins</p>
+      <p>A powerful royal insignia reserved for ambitious adventurers.</p>
+      <p><strong>Effect</strong><br>x2.0 Session Coins</p>
+      <p><strong>Duration</strong><br>One Session</p>
+      <p><strong>Price</strong><br>400 Coins</p>
     </td>
-    <td width="33%" valign="top">
-      <h3>🍀 Lucky Booster</h3>
-      <p>Improves higher-rarity chances during the next Focus Capsule roll.</p>
-      <p><strong>Effect:</strong> Increased Luck</p>
-      <p><strong>Price:</strong> 250 Coins</p>
+    <td width="33%" valign="top" align="center">
+      <h3>🍀 Lucky Charm</h3>
+      <p>An enchanted charm that improves valuable Focus Vault rewards.</p>
+      <p><strong>Effect</strong><br>Improved Rare Drops</p>
+      <p><strong>Duration</strong><br>One Vault Opening</p>
+      <p><strong>Price</strong><br>250 Coins</p>
     </td>
   </tr>
 </table>
 
-Coin Boosters are consumed when a session begins.
+Coin Boosters are consumed when a focus session begins.
 
-Lucky Boosters are consumed when the next Focus Capsule roll begins.
+Lucky Charms are consumed when the next Focus Vault opening begins.
 
 ---
 
-## 🎰 Focus Capsule
+## 💎 The Focus Vault
 
-Spend coins to unlock random collectibles.
+Spend **100 Coins** to open the Focus Vault and receive a random collectible.
 
-Focus Capsule Cost: 100 Coins
+```text
+╔══════════════════════════════════╗
+║          THE FOCUS VAULT         ║
+╠══════════════════════════════════╣
+║  Opening Cost:       100 Coins   ║
+║  Guaranteed Reward:  1 Item      ║
+║  Highest Rarity:     Celestial   ║
+║  Duplicate Reward:   Bonus Coins ║
+╚══════════════════════════════════╝
+```
 
-### Drop Rates
+### Vault Rarities
 
-| Rarity | Drop Rate | Color |
-|:---:|---:|:---:|
-| Common | 60% | ⚪ |
-| Rare | 25% | 🔵 |
-| Epic | 10% | 🟣 |
-| Legendary | 4% | 🟡 |
-| Mythic | 1% | 🔴 |
+| Rarity | Drop Rate | Theme |
+|:---:|---:|:---|
+| Common | 60% | Silver |
+| Rare | 25% | Sapphire |
+| Epic | 10% | Amethyst |
+| Legendary | 4% | Royal Gold |
+| Celestial | 1% | Imperial Crimson |
 
 ### Current Collection
 
+```text
 COMMON
 ├── ✏️ Focus Pencil
-└── 📓 Smart Notebook
+└── 📓 Scholar's Notebook
 
 RARE
-├── 🧮 Speed Calculator
-└── 🐛 Bookworm
+├── 🧮 Chronos Calculator
+└── 📘 Sapphire Study Tome
 
 EPIC
-└── 🧑‍🏫 Pocket Professor
+└── 🔮 Amethyst Hourglass
 
 LEGENDARY
-└── 👑 Exam King
+└── 👑 Crown of Concentration
 
-MYTHIC
-└── 🐉 Time Dragon
+CELESTIAL
+└── 🐉 Dragon of Eternal Focus
+```
 
-Duplicate collectibles are converted into bonus coins.
+### Duplicate Compensation
+
+Duplicate items are converted into coins.
 
 | Duplicate Rarity | Compensation |
 |:---:|---:|
@@ -255,153 +344,182 @@ Duplicate collectibles are converted into bonus coins.
 | Rare | 30 Coins |
 | Epic | 60 Coins |
 | Legendary | 150 Coins |
-| Mythic | 400 Coins |
+| Celestial | 400 Coins |
 
 ---
 
-## 🏆 Rank System
+## 👑 Rank Ascension
 
-Your rank is based on total completed focus time.
+Ranks represent total completed focus time.
 
-🥉 Bronze
-    └── Starting Rank
+```text
+BRONZE INITIATE
+└── Starting Rank
 
-🥈 Silver
-    └── 2 Hours
+SILVER SCHOLAR
+└── 2 Hours of Focus
 
-🥇 Gold
-    └── 10 Hours
+GOLD STRATEGIST
+└── 10 Hours of Focus
 
-💎 Diamond
-    └── 30 Hours
+DIAMOND ARCHITECT
+└── 30 Hours of Focus
 
-⚔️ Master
-    └── 100 Hours
+ROYAL MASTER
+└── 100 Hours of Focus
 
-👑 Legend
-    └── 250 Hours
+ETERNAL LEGEND
+└── 250 Hours of Focus
+```
 
-### Rank Progress
+### Ascension Progress
 
-[████░░░░░░░░░░░░░░░░] Bronze
-[████████░░░░░░░░░░░░] Silver
-[████████████░░░░░░░░] Gold
-[███████████████░░░░░] Diamond
-[██████████████████░░] Master
-[████████████████████] Legend
+```text
+[████░░░░░░░░░░░░░░░░] Bronze Initiate
+[███████░░░░░░░░░░░░░] Silver Scholar
+[██████████░░░░░░░░░░] Gold Strategist
+[██████████████░░░░░░] Diamond Architect
+[█████████████████░░░] Royal Master
+[████████████████████] Eternal Legend
+```
 
-Future updates may add:
+### Planned Rank Rewards
 
-- Rank-exclusive themes
-- Rank-exclusive Focus Capsules
-- Profile borders
+- Exclusive themes
 - Animated rank badges
-- Special challenges
-- Seasonal rewards
+- Profile borders
+- Rank-specific Focus Vaults
+- Special titles
+- Unique collectibles
+- Seasonal quests
+- Royal challenges
+- Permanent prestige bonuses
 
 ---
 
-## 🚨 Focus Protection
+## 🛡️ Focus Protection
 
 Focus Quest uses the browser Visibility API to detect when the page becomes hidden.
 
-When the player leaves the page during an active session:
+```text
+ACTIVE FOCUS SESSION
+         ↓
+PAGE BECOMES HIDDEN
+         ↓
+WARNING SOUND ATTEMPTED
+         ↓
+FOCUS SCORE REDUCED
+         ↓
+TIMER PAUSED
+         ↓
+FOCUS ALERT DISPLAYED
+         ↓
+PLAYER RETURNS
+         ↓
+SESSION RESUMED
+```
 
-Page Hidden
-     ↓
-Warning Sound Attempted
-     ↓
-Focus Score Reduced
-     ↓
-Timer Paused
-     ↓
-Focus Alert Displayed
-     ↓
-Player Returns and Resumes
+### Privacy-First Protection
 
-### Fairness Rules
+Focus Quest does not use:
 
-- No camera monitoring
-- No microphone monitoring
-- No keyboard activity tracking
-- No mouse movement requirement
-- No forced activity confirmations
-- No punishment for reading printed materials
-- No punishment for writing physical notes
+- Camera monitoring
+- Microphone monitoring
+- Screen recording
+- Keyboard activity tracking
+- Mouse movement requirements
+- Forced activity confirmations
+- Location tracking
+- Contact access
+- Invasive background monitoring
 
-Focus Quest is designed to encourage honest focus without invasive monitoring.
+Focus Quest is a motivation tool, not examination-proctoring software.
+
+No browser-only system can perfectly determine whether someone is genuinely working. The protection system is designed to discourage casual distraction without punishing honest users.
 
 ---
 
-## 💾 Save System
+## 💾 Royal Archive
 
-Progress is automatically saved with browser `localStorage`.
+Progress is automatically stored using browser `localStorage`.
 
-Saved data includes:
-
-saveData
-├── Coins
+```text
+ROYAL ARCHIVE
+├── Coin Balance
 ├── Total Focus Time
 ├── Completed Sessions
-├── Perfect Sessions
+├── Perfect Focus Sessions
 ├── Current Rank Progress
 ├── Owned Boosters
-└── Unlocked Collectibles
+├── Unlocked Collectibles
+└── Collection Quantities
+```
 
-No account is currently required.
+No account is required in the current version.
 
-> Clearing browser data, using private browsing, or switching devices may remove local progress.
+> Clearing browser data, using private browsing, or switching devices may remove locally stored progress.
 
-Cloud saving and account synchronization are planned for a future version.
+Future versions may introduce optional accounts, secure cloud saves, and cross-device synchronization.
 
 ---
 
-## 📱 Platform Support
+## 📱 Supported Platforms
 
-<p>
-  <img src="https://img.shields.io/badge/Desktop-Supported-43EF88?style=flat-square&labelColor=06120B" alt="Desktop Supported">
-  <img src="https://img.shields.io/badge/Laptop-Supported-43EF88?style=flat-square&labelColor=06120B" alt="Laptop Supported">
-  <img src="https://img.shields.io/badge/iPad-Supported-43EF88?style=flat-square&labelColor=06120B" alt="iPad Supported">
-  <img src="https://img.shields.io/badge/Mobile-Supported-43EF88?style=flat-square&labelColor=06120B" alt="Mobile Supported">
+<p align="center">
+  <img src="https://img.shields.io/badge/DESKTOP-SUPPORTED-D4AF37?style=for-the-badge&labelColor=09090F" alt="Desktop Supported">
+  <img src="https://img.shields.io/badge/LAPTOP-SUPPORTED-9B72CF?style=for-the-badge&labelColor=09090F" alt="Laptop Supported">
+  <img src="https://img.shields.io/badge/iPAD-SUPPORTED-8B1E3F?style=for-the-badge&labelColor=09090F" alt="iPad Supported">
+  <img src="https://img.shields.io/badge/MOBILE-SUPPORTED-C9A227?style=for-the-badge&labelColor=09090F" alt="Mobile Supported">
 </p>
 
-The interface uses responsive layouts designed for desktop, tablet, and mobile screens.
+Focus Quest uses a responsive interface designed for:
 
-### Browser Notes
+- Desktop computers
+- Laptops
+- iPad
+- Android tablets
+- iPhone
+- Android phones
 
-Mobile operating systems may suspend browser timers, JavaScript, or audio while:
+### Mobile Browser Notice
+
+Mobile operating systems may suspend browser timers, JavaScript, or audio when:
 
 - The device is locked
-- Another application is open
-- The browser is placed in the background
+- Another application is opened
+- The browser enters the background
 - Battery-saving mode is active
+- The operating system removes the page from memory
 
-Improved background timer recovery is planned.
+Improved timer recovery using real timestamps is planned for a future update.
 
 ---
 
-## 🗺️ Development Quest
+## ♜ Development Campaign
 
+```text
 [████████████████████] 100%  Focus Timer
 [████████████████████] 100%  Focus Score
 [████████████████████] 100%  Coin Economy
-[████████████████████] 100%  Booster Shop
-[████████████████████] 100%  Focus Capsule
+[████████████████████] 100%  Booster Emporium
+[████████████████████] 100%  Focus Vault
 [████████████████████] 100%  Collection System
 [████████████████████] 100%  Local Save System
 [██████████████░░░░░░]  70%  Mobile Optimization
 [████████░░░░░░░░░░░░]  40%  Statistics System
 [██████░░░░░░░░░░░░░░]  30%  Achievement System
+[████░░░░░░░░░░░░░░░░]  20%  Theme Collection
 [██░░░░░░░░░░░░░░░░░░]  10%  Cloud Accounts
+```
 
 ---
 
-## 🧭 Update Roadmap
+## 🗺️ Royal Roadmap
 
-### Version 0.1: The Beginning
+### Version 0.1: The First Ascension
 
-- [x] Focus timer
-- [x] Custom task names
+- [x] Responsive focus timer
+- [x] Custom mission names
 - [x] Multiple session lengths
 - [x] Relaxed, Normal, and Strict modes
 - [x] Page departure detection
@@ -410,53 +528,70 @@ Improved background timer recovery is planned.
 - [x] Warning sound
 - [x] Coin rewards
 - [x] Perfect Focus bonus
-- [x] Ranks
+- [x] Rank progression
 - [x] Booster shop
-- [x] Focus Capsule
-- [x] Collectibles
+- [x] Focus Vault
+- [x] Collectible system
 - [x] Duplicate compensation
-- [x] Local saving
-- [x] Responsive interface
+- [x] Local browser saving
+- [x] Desktop, tablet, and mobile layouts
 
-### Version 0.2: Progress Update
+### Version 0.2: The Scholar Update
 
 - [ ] Daily focus goals
 - [ ] Weekly statistics
+- [ ] Monthly statistics
 - [ ] Session history
-- [ ] Subject categories
+- [ ] Task categories
+- [ ] Subject tracking
 - [ ] Study streaks
-- [ ] Achievements
+- [ ] Achievement system
 - [ ] Sound controls
-- [ ] Export save data
-- [ ] Import save data
-- [ ] Improved timer recovery
+- [ ] Reduced-motion mode
+- [ ] Save export
+- [ ] Save import
+- [ ] Improved mobile timer recovery
 
-### Version 0.3: Customization Update
+### Version 0.3: The Royal Collection
 
-- [ ] Unlockable themes
+- [ ] Unlockable visual themes
 - [ ] Player profiles
 - [ ] Equippable collectibles
 - [ ] Profile titles
 - [ ] Animated backgrounds
 - [ ] Rank-exclusive cosmetics
 - [ ] Additional boosters
-- [ ] New Focus Capsule collections
+- [ ] New Focus Vault collections
+- [ ] Collection completion rewards
+- [ ] Limited seasonal treasures
+
+### Version 0.4: The Social Realm
+
+- [ ] Optional account system
+- [ ] Secure cloud saves
+- [ ] Cross-device synchronization
+- [ ] Friend profiles
+- [ ] Group focus rooms
+- [ ] Shared challenges
+- [ ] Privacy-friendly leaderboards
+- [ ] Cooperative focus quests
 
 ### Future Expansions
 
-- [ ] Account system
-- [ ] Secure cloud saves
-- [ ] Friends
-- [ ] Group focus rooms
-- [ ] Shared challenges
 - [ ] Seasonal events
-- [ ] Privacy-friendly leaderboards
+- [ ] Daily quests
+- [ ] Weekly campaigns
+- [ ] Prestige system
+- [ ] Royal Pass earned through focus
 - [ ] Progressive Web App support
+- [ ] Installable mobile experience
 - [ ] Desktop application
+- [ ] Accessibility presets
+- [ ] Additional languages
 
 ---
 
-## 🛠️ Tech Inventory
+## 🛠️ Technology Arsenal
 
 <div align="center">
 
@@ -464,15 +599,15 @@ Improved background timer recovery is planned.
 
 <br><br>
 
-| Slot | Technology | Usage |
+| Slot | Technology | Purpose |
 |:---:|:---|:---|
-| `1` | HTML5 | Application structure and game interface |
-| `2` | CSS3 | Responsive layouts, animations, and themes |
-| `3` | JavaScript | Timer, economy, boosters, and gacha logic |
-| `4` | Visibility API | Page departure detection |
-| `5` | Web Audio API | Warning and reward sounds |
-| `6` | LocalStorage | Browser-based progress saving |
-| `7` | GitHub Pages | Free web deployment |
+| `I` | HTML5 | Application structure and interface |
+| `II` | CSS3 | Responsive layouts, effects, and visual themes |
+| `III` | JavaScript | Timer, economy, boosters, ranks, and vault logic |
+| `IV` | Visibility API | Page departure detection |
+| `V` | Web Audio API | Warning and reward sounds |
+| `VI` | LocalStorage | Browser-based progress saving |
+| `VII` | GitHub Pages | Free public deployment |
 
 </div>
 
@@ -480,92 +615,125 @@ Improved background timer recovery is planned.
 
 ## 📁 Project Structure
 
+```text
 focus-quest/
 ├── index.html
 ├── README.md
 ├── LICENSE
 └── screenshots/
-    ├── focus-timer.png
-    ├── gacha-system.png
-    ├── booster-shop.png
-    └── collection.png
+    ├── focus-session.png
+    ├── royal-treasury.png
+    ├── booster-emporium.png
+    ├── focus-vault.png
+    └── collection-gallery.png
+```
 
-The first release uses a single-file application structure to make development and deployment easier on tablets and browsers.
+The first release uses a single-file application structure, making Focus Quest easy to edit, test, and publish from a tablet or browser.
 
 ---
 
-## 🚀 Play Locally
+## 🚀 Begin Your Quest Locally
 
-1. Download this repository.
-2. Open `index.html`.
-3. Enter a task name.
-4. Choose a session length.
-5. Select a Focus Mode.
-6. Press **Start**.
-7. Complete the session.
-8. Collect your coins.
-9. Purchase boosters or roll the Focus Capsule.
+1. Download or clone this repository.
+2. Open `index.html` in a modern browser.
+3. Enter a mission name.
+4. Select a session length.
+5. Choose a Focus Mode.
+6. Equip an optional booster.
+7. Press **Start**.
+8. Complete the focus session.
+9. Claim the reward.
+10. Visit the Booster Emporium or Focus Vault.
 
 No installation is required.
 
+For the most consistent behavior, run Focus Quest through a local web server or GitHub Pages.
+
 ---
 
-## 🌐 GitHub Pages
-
-The public version is available here:
+## 🌐 Enter Through GitHub Pages
 
 ### https://heowoibleriemc.github.io/focus-quest/
 
-GitHub Pages deployment settings:
+GitHub Pages configuration:
 
+```text
 Repository Settings
 └── Pages
     ├── Source: Deploy from a branch
     ├── Branch: main
     └── Folder: / (root)
+```
 
 ---
 
-## ⚠️ Current Limitations
+## ⚠️ Known Limitations
 
-Browser Save Editing:   Possible
-Cross-Device Sync:      Not Available
-Cloud Saving:           Not Available
-Offline Installation:   Not Available
-Background Timer:       Browser Dependent
-Competitive Security:   Prototype Level
+```text
+LOCAL SAVE EDITING
+Status: Possible with browser development tools
+
+CROSS-DEVICE SYNCHRONIZATION
+Status: Not yet available
+
+CLOUD SAVING
+Status: Planned
+
+BACKGROUND TIMER ACCURACY
+Status: Browser and operating-system dependent
+
+OFFLINE INSTALLATION
+Status: Planned through PWA support
+
+COMPETITIVE SECURITY
+Status: Prototype level
+```
 
 Focus Quest is currently intended as a personal motivation tool.
 
-It should not be used for competitions involving money, valuable prizes, grades, employment decisions, or other high-stakes rewards.
+It should not be used for competitions involving:
+
+- Money
+- Valuable prizes
+- School grades
+- Employment decisions
+- Official attendance
+- High-stakes rankings
 
 ---
 
-## 🌲 Development Philosophy
+## ⚜️ Development Philosophy
 
+```javascript
 const focusQuest = {
   creator: "HeowoiblerieMC",
-  mission: "Turn focused time into visible progress",
-  economy: "Earned through real focus",
-  privacy: "No invasive monitoring",
-  design: "Dark, clean, responsive, and game-like",
-  rule: "Focus first. Rewards follow."
+  identity: "Royal productivity adventure",
+  mission: "Transform focused time into visible progress",
+  economy: "Every coin must be earned through focus",
+  privacy: "Never rely on invasive monitoring",
+  design: "Obsidian, gold, amethyst, and imperial crimson",
+  promise: "Honest focus deserves meaningful rewards",
+  rule: "Focus first. Ascension follows."
 };
+```
 
-- Honest players should not be punished for reading or writing away from the screen.
-- Focus tools should feel rewarding, not stressful.
-- Progress should come from completed sessions.
-- Anti-cheat systems should respect privacy.
-- Every update should make focusing more enjoyable.
-- Productivity can feel like a game without becoming meaningless.
+### The Seven Principles
+
+1. Real focus should create visible progress.
+2. Honest users should never be punished for reading or writing away from the screen.
+3. Rewards should support motivation without becoming pay-to-win.
+4. Privacy is more important than aggressive anti-cheat systems.
+5. Every feature should have a clear purpose.
+6. The interface should feel elegant, responsive, and rewarding.
+7. Productivity can feel like a game without losing its meaning.
 
 ---
 
-## 🤝 Contributing
+## 🤝 Join the Development
 
-Feedback, ideas, balancing suggestions, and bug reports are welcome.
+Ideas, balancing suggestions, accessibility improvements, and bug reports are welcome.
 
-Useful contribution areas include:
+Valuable contribution areas include:
 
 - Mobile browser compatibility
 - Timer accuracy
@@ -576,39 +744,56 @@ Useful contribution areas include:
 - Interface improvements
 - Save-system reliability
 - Performance optimization
+- Responsive design
+- Theme creation
 
-When reporting a bug, include:
+### Bug Report Format
 
+```text
 Device:
 Operating System:
 Browser:
+Focus Mode:
+Session Length:
 Steps to Reproduce:
 Expected Behavior:
 Actual Behavior:
+Additional Details:
+```
 
-Do not include private school information, passwords, personal account data, or other sensitive information in public issues.
+Never include passwords, account credentials, private school information, personal addresses, or other sensitive information in public issues.
 
 ---
 
-## 🔗 Connect
+## 📜 License
+
+Focus Quest is available under the MIT License.
+
+You may use, modify, and redistribute the source code under the terms of the license.
+
+Attribution is appreciated.
+
+---
+
+## 🔗 Enter the Realm
 
 <div align="center">
 
 <a href="https://github.com/HeowoiblerieMC">
-  <img src="https://img.shields.io/badge/GitHub-HeowoiblerieMC-43EF88?style=for-the-badge&logo=github&logoColor=white&labelColor=06120B" alt="GitHub Profile">
+  <img src="https://img.shields.io/badge/GITHUB-HEOWOIBLERIEMC-D4AF37?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=09090F" alt="GitHub Profile">
 </a>
 <a href="https://heowoibleriemc.github.io/focus-quest/">
-  <img src="https://img.shields.io/badge/Play-Focus%20Quest-43EF88?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=06120B" alt="Play Focus Quest">
+  <img src="https://img.shields.io/badge/PLAY-FOCUS%20QUEST-9B72CF?style=for-the-badge&logo=googlechrome&logoColor=FFFFFF&labelColor=09090F" alt="Play Focus Quest">
 </a>
 <a href="https://youtube.com/HeowoiblerieMC">
-  <img src="https://img.shields.io/badge/YouTube-HeowoiblerieMC-43EF88?style=for-the-badge&logo=youtube&logoColor=red&labelColor=06120B" alt="YouTube">
+  <img src="https://img.shields.io/badge/YOUTUBE-HEOWOIBLERIEMC-8B1E3F?style=for-the-badge&logo=youtube&logoColor=FFFFFF&labelColor=09090F" alt="YouTube">
 </a>
 
 <br><br>
 
-## ⚡ Start the timer. Protect your focus. Build your collection.
+# ✦ Begin the Timer. Protect Your Focus. Build Your Legacy. ✦
 
-**Made with focus, JavaScript, and way too many coins.**
+**Created with focus, JavaScript, royal ambition, and far too many coins.**
 
 <br>
 
